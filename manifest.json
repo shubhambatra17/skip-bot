@@ -1,0 +1,24 @@
+{
+    "name": "Skip Bot",
+    "version": "0.0.1",
+    "description": "Automatic remove youtube add",
+    "permissions": ["activeTab","declarativeContent","storage"],
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    },
+    "content_scripts": [
+      {
+        "matches": ["http://*/*", "https://*/*"],
+        "js": ["contentscript.js"]
+      }
+    ],
+    "page_action": {
+        "default_popup": "popup.html",
+        "default_icon": "get_started128.png"
+    },
+    "icons": {
+        "128": "get_started128.png"
+    },
+    "manifest_version": 2
+  }
