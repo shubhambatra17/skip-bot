@@ -4,10 +4,10 @@
 
 ## How to run on local machine
 
-> copy paste this chrome://extensions/ in your chrome url
-> click on Load unpacked
-> select your folder
-> Ready to go >
+* copy paste this chrome://extensions/ in your chrome url
+* click on Load unpacked
+* select your folder
+* Ready to go
 
 
 
